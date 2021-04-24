@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => (
   <div className="container">
-    <h1>About Me</h1>
+    <h4>About Me</h4>
     <div className="col s12 m7">
         <div className="card horizontal">
             <div className="card-image">

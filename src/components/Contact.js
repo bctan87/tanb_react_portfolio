@@ -35,7 +35,7 @@ function Contact() {
 
   return (
     <div className="container">
-      <h1 data-testid="h1tag">Contact me</h1>
+      <h4 data-testid="h1tag">Contact me</h4>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div className="input-field">
           <label htmlFor="name">Name</label>
@@ -54,7 +54,7 @@ function Contact() {
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
-        <button data-testid="button" className="btn waves-effect waves-light green" type="submit">Submit</button>
+        <button data-testid="button" className="btn waves-effect waves-light blue" type="submit">Submit</button>
       </form>
     </div>
   );

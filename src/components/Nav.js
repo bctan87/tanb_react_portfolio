@@ -13,14 +13,12 @@ function Nav(props) {
     var instances = M.Sidenav.init(elems, {});
   });
 
-
   return (
     <div>
 
         <nav>
             
-            <div className="black nav-wrapper">
-                <a href="#" className="brand-logo">BEN TAN</a>
+            <div className="blue nav-wrapper">
                 <a href="#" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>  
                 <ul id="nav-mobile" className="right hide-on-med-and-down">
                 {tabs.map(tab => (
