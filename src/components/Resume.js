@@ -3,7 +3,7 @@ import React from "react";
 const Resume = () => (
   <div className="container">
     <h4>Resume</h4>
-    <a href="/public/tanbenDevResume.pdf" download="">Download My Resume</a>
+    <a href={process.env.PUBLIC_URL + '/file/tanbenDevResume.pdf'}  download="">Download My Resume</a>
     <br/>
     <h5>
       Front-end Proficiencies
