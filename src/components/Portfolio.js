@@ -1,16 +1,38 @@
-import React from "react";
+import React, { useState } from 'react';
+import ProjectCard from './ProjectCard';
+import Project from './Project';
+import projects from './projects.json';
 
-const Portfolio = () => (
-  <div className="container">
-    <h4>Portfolio</h4>
-    <p>
-      Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui mauris,
-      ut interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac finibus porta. Nam
-      quis arcu non lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-      imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus in. Sed rhoncus mollis
-      diam, sit amet facilisis lectus blandit at.
-    </p>
-  </div>
-);
+function Portfolio() {
+
+    const [ projectlist ] = useState(projects);
+  
+    return (
+      <Project>
+        <div className="container">
+            <h4>Portfolio</h4>
+  
+            <div className="row">
+                {
+                projectlist.map(project => (
+                    <ProjectCard key={project.id} 
+                    id={project.id}
+                    name={project.name} 
+                    image={project.image}
+                    description={project.description} 
+                    link={project.link}
+                    repo={project.repo}  
+                    >
+        
+                    </ProjectCard>
+                    ))
+                }
+            </div>
+
+
+         </div>
+      </Project>
+    );
+  }
 
 export default Portfolio;

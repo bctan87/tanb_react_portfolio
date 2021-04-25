@@ -31,7 +31,7 @@ function App() {
           {renderPage(currentPage) }
         </div>
       </Header>
-      <br/>
+      <br />
       <div>
       <Footer/>
       </div>
