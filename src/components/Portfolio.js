@@ -18,7 +18,7 @@ function Portfolio() {
                     <ProjectCard key={project.id} 
                     id={project.id}
                     name={project.name} 
-                    image={project.image}
+                    image={(process.env.PUBLIC_URL + `../images/${project.id}.png`)}
                     description={project.description} 
                     link={project.link}
                     repo={project.repo}  

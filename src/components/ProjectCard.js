@@ -7,7 +7,7 @@ function FriendCard(props) {
         <div className="card">
             <div className="card-image">
             <img alt={props.name} src={props.image} />
-            <span className="card-title">{props.name}</span>
+            <span className="blue darken-1 card-title">{props.name}</span>
             </div>
             <div className="card-content">
             <p>{props.description}</p>
