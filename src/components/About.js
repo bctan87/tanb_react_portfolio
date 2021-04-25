@@ -6,7 +6,7 @@ const About = () => (
     <div className="col s12 m3">
         <div className="card horizontal">
             <div className="card-image">
-                <img src="../images/photo.jpg" alt="ben" />
+                <img src={process.env.PUBLIC_URL + '/images/photo.jpg'} alt="ben" />
             </div>
             <div className="card-stacked">
                 <div className="card-content">
