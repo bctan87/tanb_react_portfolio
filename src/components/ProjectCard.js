@@ -13,10 +13,10 @@ function FriendCard(props) {
             <p>{props.description}</p>
             </div>
             <div className="card-action">
-            <a href={props.link} target="_blank">Link</a>
+            <a href={props.link} target="_blank" rel="noreferrer">Link</a>
             </div>
             <div className="card-action">
-            <a href={props.repo} target="_blank">Repo</a>
+            <a href={props.repo} target="_blank" rel="noreferrer">Repo</a>
             </div>
         </div>
         </div>
