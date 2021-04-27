@@ -6,7 +6,7 @@ function Header (props) {
         <header>
 
             <h3>
-            <a href="#" className="brand-logo">BEN TAN</a>
+            BEN TAN
             </h3>
 
             {props.children}

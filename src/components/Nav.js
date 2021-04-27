@@ -18,7 +18,7 @@ function Nav(props) {
 
         <nav>
             
-            <div className="blue nav-wrapper">
+            <div className="black nav-wrapper">
                 <a href="#" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>  
                 <ul id="nav-mobile" className="right hide-on-med-and-down">
                 {tabs.map(tab => (

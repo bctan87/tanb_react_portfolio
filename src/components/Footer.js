@@ -3,7 +3,7 @@ import React from "react";
 function Footer (props) {
 
     return (
-        <footer className="blue-grey lighten-3 page-footer">
+        <footer className="grey darken-1 page-footer">
           <div className="container">
             <div className="row">
               <div className="col l6 s12">
@@ -17,7 +17,7 @@ function Footer (props) {
               </div>
             </div>
           </div>
-          <div className="blue footer-copyright">
+          <div className="black footer-copyright">
             <div className=" container">
             © 2021 Ben Tan
             </div>

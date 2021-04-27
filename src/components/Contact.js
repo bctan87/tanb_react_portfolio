@@ -54,7 +54,7 @@ function Contact() {
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
-        <button data-testid="button" className="btn waves-effect waves-light blue" type="submit">Submit</button>
+        <button data-testid="button" className="btn waves-effect waves-light green" type="submit">Submit</button>
       </form>
     </div>
   );
