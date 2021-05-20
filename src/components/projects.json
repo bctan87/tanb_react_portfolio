@@ -10,35 +10,35 @@
     {
       "id": 2,
       "name": "DishADay",
-      "description": "HTML - Materialize - JS - MySQL",
+      "description": "HTML - Materialize - JS - MySQL - Node",
       "link": "https://dishaday.herokuapp.com/",
       "repo": "https://github.com/DSnod93/grocery"
     },
     {
       "id": 3,
-      "name": "budgetTracker",
-      "description": "HTML - CSS - JS",
-      "link": "https://tanb-budget-tracker.herokuapp.com/",
-      "repo": "https://github.com/bctan87/budgetTracker"
+      "name": "TheFoodChain",
+      "description": "MERN - Materialize - GraphQL",
+      "link": "https://thefoodchain.herokuapp.com/",
+      "repo": "https://github.com/bctan87/theFoodChain"
     },
     {
       "id": 4,
       "name": "techBlog",
-      "description": "HTML - CSS - JS - MySQL",
+      "description": "HTML - CSS - JS - MySQL - Node",
       "link": "https://tanb-tech-blog.herokuapp.com/",
       "repo": "https://github.com/bctan87/techBlog"
     },
     {
       "id": 5,
       "name": "noteTaker",
-      "description": "HTML - CSS - JS",
+      "description": "HTML - CSS - JS - Node",
       "link": "https://tanb-notetaker.herokuapp.com",
       "repo": "https://github.com/bctan87/noteTaker"
     },
     {
       "id": 6,
       "name": "pizzaHunt",
-      "description": "JS - MongoDB",
+      "description": "JS - MongoDB - Node",
       "link": "https://tanb-pizza-hunt.herokuapp.com/",
       "repo": "https://github.com/bctan87/pizzaHunt"
     }
