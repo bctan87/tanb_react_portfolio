@@ -29,6 +29,9 @@ const About = () => (
                     <p>
                         Certified SAFe® 5 Scrum Master (SSM) - Scaled Agile, Inc.
                     </p>
+                    <p>
+                        Certificate in Full Stack Development - UC Berkeley
+                    </p>
                 </div>
             </div>
         </div>
