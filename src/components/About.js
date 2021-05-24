@@ -30,7 +30,7 @@ const About = () => (
                         Certified SAFe® 5 Scrum Master (SSM) - Scaled Agile, Inc.
                     </p>
                     <p>
-                        Certificate in Full Stack Development - UC Berkeley
+                        Certificate in Full Stack Web Development - UC Berkeley
                     </p>
                 </div>
             </div>
