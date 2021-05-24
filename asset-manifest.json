@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/tanb_react_portfolio/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/tanb_react_portfolio/static/js/main.61448614.chunk.js",
+    "main.js.map": "/tanb_react_portfolio/static/js/main.61448614.chunk.js.map",
+    "runtime-main.js": "/tanb_react_portfolio/static/js/runtime-main.aaeabb77.js",
+    "runtime-main.js.map": "/tanb_react_portfolio/static/js/runtime-main.aaeabb77.js.map",
+    "static/js/2.8bbf0e19.chunk.js": "/tanb_react_portfolio/static/js/2.8bbf0e19.chunk.js",
+    "static/js/2.8bbf0e19.chunk.js.map": "/tanb_react_portfolio/static/js/2.8bbf0e19.chunk.js.map",
+    "static/js/3.9f2cd074.chunk.js": "/tanb_react_portfolio/static/js/3.9f2cd074.chunk.js",
+    "static/js/3.9f2cd074.chunk.js.map": "/tanb_react_portfolio/static/js/3.9f2cd074.chunk.js.map",
+    "index.html": "/tanb_react_portfolio/index.html",
+    "service-worker.js": "/tanb_react_portfolio/service-worker.js",
+    "service-worker.js.map": "/tanb_react_portfolio/service-worker.js.map",
+    "static/css/main.6dea0f05.chunk.css.map": "/tanb_react_portfolio/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.8bbf0e19.chunk.js.LICENSE.txt": "/tanb_react_portfolio/static/js/2.8bbf0e19.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aaeabb77.js",
+    "static/js/2.8bbf0e19.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.61448614.chunk.js"
+  ]
+}
